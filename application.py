@@ -8,7 +8,7 @@ app = Flask(__name__)
 # ----------- Root Route for Azure ----------
 @app.route("/")
 def home():
-    return "Hello! Flask API running on Azure."
+    return "Hello Lyon! Flask API running on Azure."
 
 # ----------- Price Endpoints -----------
 
